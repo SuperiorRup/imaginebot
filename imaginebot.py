@@ -39,7 +39,7 @@ async def on_message(message):
     if message.content == '@ıɱąɠıŋɛ ɠąɱıŋɠ ℘Ɩąy':
         await client.send_message(message.channel,'Why Did You Ping')
        
-    Mike = Bot('+')
+    Mike = Bot('!')
 
 @Mike.command(pass_context = True)
 async def say(ctx, *args):
