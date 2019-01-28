@@ -38,12 +38,4 @@ async def on_message(message):
         await client.send_message(message.channel,'What')
     if message.content == '@ıɱąɠıŋɛ ɠąɱıŋɠ ℘Ɩąy':
         await client.send_message(message.channel,'Why Did You Ping')
-       
-    Mike = Bot('!')
-
-@Mike.command(pass_context = True)
-async def say(ctx, *args):
-    mesg = ' '.join(args)
-return await Mike.say(mesg)
-
 client.run('NTM5MDQwMTgwNjQwODA4OTc0.Dy8kLw.TcIofRa0MfvdM1gr7gkrBELhqNc')
